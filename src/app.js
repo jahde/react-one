@@ -7,6 +7,7 @@ const App = React.createClass({
   render: function() {
     return (
       <div className={styles.wrapper}>
+        <h1>Environment: {__NODE_ENV__}</h1>
         Text text text
       </div>
     );
